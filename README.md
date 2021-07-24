@@ -13,4 +13,4 @@ So instruction to run are as below:
 2. docker run -p 49167:3000 -d pmeldo/eldo:webnode 
 3. The collection can be used to run all the commands i.e. POST, GET with (key) and  (key and timestamp)
 4. docker ps //command lists container id
-5. docker logs <container id>
+5. docker logs <container id> // verify logs
