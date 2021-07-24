@@ -1,5 +1,7 @@
 # nodeTest
 
+Database used is neddb
+
 Docker image has been pushed into docker hub
 
 So instruction to run are as below:
