@@ -1,6 +1,7 @@
 # nodeTest
 
 Database used is neddb
+nodejs is express based running on port 3000
 
 Docker image has been pushed into docker hub if we are using another cloud provider we can use things like ECR in AWS etc.
 
