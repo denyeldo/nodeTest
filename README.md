@@ -2,7 +2,7 @@
 
 Database used is neddb
 
-Docker image has been pushed into docker hub
+Docker image has been pushed into docker hub if we are using another cloud provider we can use things like ECR in AWS etc.
 
 So instruction to run are as below:
 1. docker pull pmeldo/eldo:webnode
