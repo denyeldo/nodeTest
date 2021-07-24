@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "3f582163-4895-4f42-96aa-7d9c7002fbc3",
+		"name": "dockerHubTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:49167/object",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mykey3\" : \"value3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:49167/object",
+					"host": [
+						"localhost"
+					],
+					"port": "49167",
+					"path": [
+						"object"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:49162/object/<key>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:49162/object/mykey3",
+					"host": [
+						"localhost"
+					],
+					"port": "49162",
+					"path": [
+						"object",
+						"mykey3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:49162/object/<key>?timestamp=<value>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:49162/object/<key>?timestamp=1627134910181",
+					"host": [
+						"localhost"
+					],
+					"port": "49162",
+					"path": [
+						"object",
+						"<key>"
+					],
+					"query": [
+						{
+							"key": "timestamp",
+							"value": "1627134910181"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
